@@ -1,0 +1,26 @@
+# AI Prompt to JSON Converter (Chrome Extension)
+
+Convert plain-text prompts into platform-specific JSON for **Sora**, **DALL‑E**, **ChatGPT**, **Gemini**, **Midjourney**, **Stable Diffusion**, and **Claude**.
+
+## What it does
+- Auto-detects platform from the page URL
+- Converts your prompt into valid JSON
+- One‑click copy
+- Local only — private
+
+## Install (Unpacked)
+1. Open chrome://extensions/
+2. Toggle **Developer mode**
+3. Click **Load unpacked**
+4. Select the `extension` folder
+
+## Example (DALL‑E)
+```json
+{
+  "model": "dall-e-3",
+  "prompt": "A futuristic city at sunset with flying cars",
+  "n": 1,
+  "size": "1024x1024",
+  "quality": "standard",
+  "style": "vivid"
+}
